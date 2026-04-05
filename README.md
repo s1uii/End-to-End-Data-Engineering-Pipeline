@@ -1,5 +1,4 @@
 # End-to-End-Data-Engineering-Pipeline
-
 ## Overview
 
 This project implements an end-to-end data pipeline using the Medallion Architecture (Bronze, Silver, Gold) on the Olist dataset (Kaggle).
@@ -9,6 +8,7 @@ Data is ingested from Azure Data Lake Storage into the Lakehouse using pipelines
 ---
 
 ## Architecture
+![Data Architecture](images/olist-architecture.jpg)
 
 * **Bronze**: Raw data ingested via pipeline, then converted to Delta tables with schema enforcement
 * **Silver**: Data cleaning, standardization, and transformations
