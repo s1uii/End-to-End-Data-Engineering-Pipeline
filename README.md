@@ -1,4 +1,4 @@
-# End-to-End-Data-Engineering-Pipeline
+# End-to-End Data Engineering Pipeline
 A scalable end-to-end data pipeline built on Microsoft Fabric using Medallion Architecture to transform raw data into business-ready insights.
 
 ## Architecture
