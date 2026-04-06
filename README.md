@@ -17,7 +17,7 @@ Orchestrated using Microsoft Fabric Pipelines:
 * Copy Activity → Ingest raw data from ADLS to Lakehouse
 * Bronze Notebook → Apply schema and convert data to Delta tables
 * Silver Notebook → Clean and transform data
-* Gold Notebook → Aggregate and model data
+* Gold Notebook → Data modeling (Star Schema)
 
 ---
 
