@@ -21,12 +21,18 @@ Orchestrated using Microsoft Fabric Pipelines:
 
 ---
 
-## Processing
+---
 
-* PySpark (Fabric Notebooks)
-* Delta Lake
-* Layered processing (Bronze → Silver → Gold)
+## Tech Stack & Processing
 
+| Category | Technology | Role in Project |
+| :--- | :--- | :--- |
+| **Processing** | ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white) **PySpark** | Distributed computing engine used for large-scale transformations across all layers. |
+| **Storage Format** | ![Delta Lake](https://img.shields.io/badge/Delta_Lake-00ADFF?style=flat-square&logo=delta-lake&logoColor=white) **Delta Lake** | Ensuring **ACID transactions** and **schema enforcement** for reliable data storage. |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=postgresql&logoColor=white) | Core languages used for complex data manipulation and relational querying. |
+| **Data Modeling** | **Star Schema** | Designing **Fact and Dimension** tables optimized for efficient BI reporting and analytics. |
+
+---
 ---
 
 
