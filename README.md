@@ -1,11 +1,8 @@
 # End-to-End-Data-Engineering-Pipeline
+A scalable end-to-end data pipeline built on Microsoft Fabric using Medallion Architecture to transform raw data into business-ready insights.
 ## Overview
 
-This project implements an end-to-end data pipeline using the Medallion Architecture (Bronze, Silver, Gold) on the Olist dataset (Kaggle).
-
-Data is ingested from Azure Data Lake Storage into the Lakehouse using pipelines, then processed with PySpark (Fabric Notebooks) to produce analytics-ready datasets.
-
----
+This project processes the Olist dataset (Kaggle) using a Medallion Architecture (Bronze, Silver, Gold).
 
 ## Architecture
 ![Data Architecture](images/olist-architecture.jpg)
